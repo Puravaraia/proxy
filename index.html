@@ -29,9 +29,76 @@
     <center>
       <h1>Download options</h1>
       <h3>Chrome</h3><br/>
-      <button onclick="location.href='download.html';" style='background: #43A047;border:none;border-radius:20px; color:white;'>Download</button>
+     <a id="download" href="download.html"><span class="entypo-install"></span>Download Proxy<span id="version">var 0.3.1</span></a>
+<style>
+  /* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  display: block;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  float: left;
+}
 
-      
+#download {
+  vertical-align: top;
+  line-height: 28px;
+  border-radius: 4px;
+  box-shadow: #439230 0 6px 0px, rgba(0, 0, 0, 0.3) 0 10px 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 15px 8px;
+  margin: .5em .5em .5em 0;
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  -ms-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  transition: 0.1s linear;
+
+  background: #82cc5d;
+  background: -moz-linear-gradient(top,  #82cc5d 0%, #53b73c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#82cc5d), color-stop(100%,#53b73c));
+  background: -webkit-linear-gradient(top,  #82cc5d 0%,#53b73c 100%);
+  background: -ms-linear-gradient(top,  #82cc5d 0%,#53b73c 100%);
+  background: linear-gradient(to bottom,  #82cc5d 0%,#53b73c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82cc5d', endColorstr='#53b73c',GradientType=0 );
+  border: 1px solid #429E34;
+}
+
+#download:hover {
+  box-shadow: #439230 0 6px 0px, rgba(0, 0, 0, 0.3) 0 10px 3px;
+
+  background: #99cc80;
+  background: -moz-linear-gradient(top,  #99cc80 0%, #53b73c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#99cc80), color-stop(100%,#53b73c));
+  background: -webkit-linear-gradient(top,  #99cc80 0%,#53b73c 100%);
+  background: -ms-linear-gradient(top,  #99cc80 0%,#53b73c 100%);
+  background: linear-gradient(to bottom,  #99cc80 0%,#53b73c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99cc80', endColorstr='#53b73c',GradientType=0 );
+}
+
+#download:active {
+  box-shadow: #439230 0 3px 0, rgba(0, 0, 0, 0.2) 0 6px 3px;
+
+  position: relative;
+  top: 5px;
+}
+
+#download span {
+  margin-left: 5px;
+  color: #f0f0f0;
+  font-weight: normal;
+  font-size: 12px;
+  text-shadow: 0 none;
+}
+</style>
     </center>
   </div>
 </div>
